@@ -19,7 +19,7 @@ class DetectAiText(dspy.Signature):
     text: str = dspy.InputField()
     source: Literal['ai', 'human'] = dspy.OutputField()
 
-detector = dspy.predict(DetectAiText) 
+detector = dspy.Predict(DetectAiText) 
 
 print(detector(text="Hello world (this definitely wasn't written by AI)"))
 

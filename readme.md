@@ -97,7 +97,7 @@ evaluator = Evaluate(devset=dspy_devset, num_threads=12)  # Adjust threads based
 evaluator(detector, metric=validate_text_source)
 ```
 
-In my initial tests, I achieved an accuracy of **79%–81%**. Note that results may vary due to the random sampling of the dataset.
+In my initial tests, I achieved an accuracy of **76%–81%**. Note that results may vary due to the random sampling of the dataset.
 
 ---
 
@@ -134,7 +134,7 @@ optimized_program.save(f'detect_ai_mipro_optimized_{time.time()}.dspy')
 
 ## Results and Iteration
 
-After running the optimization, I observed a significant performance boost. My first run achieved an accuracy of **91.25%**, compared to the baseline’s **79%–81%**. Subsequent runs ranged between **81.2%** and **91.25%**, demonstrating consistent improvements with minimal effort.
+After running the optimization, I observed a significant performance boost. My first run achieved an accuracy of **91.25%**, compared to the baseline’s **76%–81%**. Subsequent runs ranged between **81%** and **92%**, demonstrating consistent improvements with minimal effort.
 
 To load the optimized model for further use:
 
