@@ -1,4 +1,4 @@
-Original Dev article [here]().
+Original Dev article [here](https://dev.to/b-d055/optimizing-openais-gpt-4o-mini-to-detect-ai-generated-text-using-dspy-2775).
 
 # Optimizing OpenAI’s GPT-4o-mini to Detect AI-Generated Text Using DSPy
 
@@ -157,7 +157,7 @@ I'd highly recommend a read-through of DSPy’s [documentation](https://dspy.ai/
 
 ---
 
-Full code available on [GitHub]().
+Full code available on [GitHub](https://github.com/b-d055/optimizing-gpt-4o-mini-dspy).
 
 Question? Comments? Let me know, I look forward to seeing what you build with DSPy!
 
